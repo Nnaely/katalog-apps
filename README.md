@@ -2,7 +2,7 @@
 
 **Situs live: https://katalog-apps.pages.dev**
 
-Web katalog paket aplikasi (streaming, education, editing, music, other) dengan pemesanan lewat WhatsApp. Pembeli memilih **produk → paket → durasi**. Website lalu menampilkan harga, ketentuan, ringkasan, dan menyiapkan draf chat ke admin di **+62 857-2459-0854**. Pesan baru terkirim setelah pembeli menekan Kirim di WhatsApp.
+Web katalog paket aplikasi (streaming, education, editing, music, other) dengan pemesanan lewat WhatsApp. Pembeli memilih **produk → paket → durasi**. Website lalu menampilkan harga, ketentuan, ringkasan, dan menyiapkan draf chat ke admin di **+62 851-2804-5094**. Pesan baru terkirim setelah pembeli menekan Kirim di WhatsApp.
 
 Dibangun sesuai *PRD Web Katalog Aplikasi v1.0* dengan data dari *PRICELIST APPS* (pembaruan sumber 27 Juni 2026). Situs ini statis (HTML, CSS, dan JavaScript tanpa framework), jadi bisa di-host gratis tanpa server dan tanpa proses build.
 

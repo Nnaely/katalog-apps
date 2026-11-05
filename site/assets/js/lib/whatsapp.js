@@ -3,13 +3,13 @@ import { cleanText, formatRupiah } from './format.js';
 
 export const HELP_MESSAGE = 'Halo, saya ingin bertanya tentang produk dan paket yang tersedia.';
 
-// International format without "+", spaces, or hyphens (e.g. 6285724590854).
+// International format without "+", spaces, or hyphens (e.g. 6285128045094).
 const NUMBER_PATTERN = /^[1-9]\d{7,14}$/;
 
 export function buildWhatsAppUrl(number, message) {
   if (typeof number !== 'string' || !NUMBER_PATTERN.test(number)) {
     throw new TypeError(
-      `Format nomor WhatsApp tidak valid: "${number}". Gunakan kode negara tanpa plus, spasi, atau tanda hubung, misalnya 6285724590854.`,
+      `Format nomor WhatsApp tidak valid: "${number}". Gunakan kode negara tanpa plus, spasi, atau tanda hubung, misalnya 6285128045094.`,
     );
   }
   const text = String(message ?? '');
