@@ -1,0 +1,4723 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "PRICELIST APPS",
+    "catalogUpdatedAt": "2026-06-27",
+    "currency": "IDR",
+    "notes": "Diimpor dari PRICELIST_APPS.docx (pembaruan sumber 27 Juni 2026). Harga harus dikonfirmasi pengelola sebelum peluncuran."
+  },
+  "categories": [
+    {
+      "id": "streaming",
+      "name": "Streaming"
+    },
+    {
+      "id": "education",
+      "name": "Education"
+    },
+    {
+      "id": "editing",
+      "name": "Editing"
+    },
+    {
+      "id": "music",
+      "name": "Music"
+    },
+    {
+      "id": "other",
+      "name": "Other"
+    }
+  ],
+  "products": [
+    {
+      "id": "netflix",
+      "slug": "netflix",
+      "name": "Netflix",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming film, serial, dan dokumenter.",
+      "description": null,
+      "image": null,
+      "monogram": "N",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Netflix",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "netflix-1p1u",
+          "productId": "netflix",
+          "name": "1P1U",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "1P1U",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "netflix-1p1u-1-hari",
+              "planId": "netflix-1p1u",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 6000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 6.000"
+            },
+            {
+              "id": "netflix-1p1u-3-hari",
+              "planId": "netflix-1p1u",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 12000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 12.000"
+            },
+            {
+              "id": "netflix-1p1u-7-hari",
+              "planId": "netflix-1p1u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 18000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 18.000"
+            },
+            {
+              "id": "netflix-1p1u-14-hari",
+              "planId": "netflix-1p1u",
+              "durationValue": 14,
+              "durationUnit": "day",
+              "durationLabel": "14 hari",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "14 hari 30.000"
+            },
+            {
+              "id": "netflix-1p1u-1-bulan",
+              "planId": "netflix-1p1u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000"
+            },
+            {
+              "id": "netflix-1p1u-2-bulan",
+              "planId": "netflix-1p1u",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 80000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 80.000"
+            },
+            {
+              "id": "netflix-1p1u-3-bulan",
+              "planId": "netflix-1p1u",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 120000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 120.000"
+            }
+          ]
+        },
+        {
+          "id": "netflix-1p2u",
+          "productId": "netflix",
+          "name": "1P2U",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "1P2U",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "netflix-1p2u-1-bulan",
+              "planId": "netflix-1p2u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 30.000"
+            },
+            {
+              "id": "netflix-1p2u-2-bulan",
+              "planId": "netflix-1p2u",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 60000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 60.000"
+            },
+            {
+              "id": "netflix-1p2u-3-bulan",
+              "planId": "netflix-1p2u",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 90000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 90.000"
+            }
+          ]
+        },
+        {
+          "id": "netflix-semi-private",
+          "productId": "netflix",
+          "name": "Semi Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Semi Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "netflix-semi-private-1-bulan",
+              "planId": "netflix-semi-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 55000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 55.000"
+            }
+          ]
+        },
+        {
+          "id": "netflix-anti-limit",
+          "productId": "netflix",
+          "name": "Anti Limit",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Anti Limit",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "netflix-anti-limit-1-bulan",
+              "planId": "netflix-anti-limit",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 60000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 60.000"
+            }
+          ]
+        },
+        {
+          "id": "netflix-single-screen",
+          "productId": "netflix",
+          "name": "Single Screen",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Single Screen",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "netflix-single-screen-1-bulan",
+              "planId": "netflix-single-screen",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 65000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 65.000"
+            }
+          ]
+        },
+        {
+          "id": "netflix-private",
+          "productId": "netflix",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "netflix-private-1-bulan",
+              "planId": "netflix-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": null,
+              "availability": "needs_confirmation",
+              "updatedAt": "2026-06-27",
+              "note": "Harga tergantung domain, perlu dikonfirmasi admin.",
+              "source": "1 bulan 170.000 (harga tergantung domain)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disney",
+      "slug": "disney",
+      "name": "Disney",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming film dan serial.",
+      "description": null,
+      "image": null,
+      "monogram": "D",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Disney",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "disney-premium-plan-6u",
+          "productId": "disney",
+          "name": "Premium plan 6u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Premium plan 6u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "disney-premium-plan-6u-1-hari",
+              "planId": "disney-premium-plan-6u",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 5000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 5.000"
+            },
+            {
+              "id": "disney-premium-plan-6u-3-hari",
+              "planId": "disney-premium-plan-6u",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 12000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 12.000"
+            },
+            {
+              "id": "disney-premium-plan-6u-7-hari",
+              "planId": "disney-premium-plan-6u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 20.000"
+            },
+            {
+              "id": "disney-premium-plan-6u-1-bulan",
+              "planId": "disney-premium-plan-6u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        },
+        {
+          "id": "disney-premium-plan-5u",
+          "productId": "disney",
+          "name": "Premium plan 5u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Premium plan 5u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "disney-premium-plan-5u-1-bulan",
+              "planId": "disney-premium-plan-5u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000"
+            }
+          ]
+        },
+        {
+          "id": "disney-premium-plan-3u-antilimit",
+          "productId": "disney",
+          "name": "Premium plan 3u (antilimit)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Premium plan 3u (antilimit)",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "disney-premium-plan-3u-antilimit-1-bulan",
+              "planId": "disney-premium-plan-3u-antilimit",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 60000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 60.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iqiyi",
+      "slug": "iqiyi",
+      "name": "iQIYI",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming drama, film, dan variety show Asia.",
+      "description": null,
+      "image": null,
+      "monogram": "iQ",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "iQIYI",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "iqiyi-sharing",
+          "productId": "iqiyi",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "iqiyi-sharing-1-bulan",
+              "planId": "iqiyi-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "iqiyi-sharing-3-bulan",
+              "planId": "iqiyi-sharing",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 30.000"
+            },
+            {
+              "id": "iqiyi-sharing-1-tahun",
+              "planId": "iqiyi-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 40.000"
+            }
+          ]
+        },
+        {
+          "id": "iqiyi-private-std",
+          "productId": "iqiyi",
+          "name": "Private (std)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "std"
+          },
+          "offers": [
+            {
+              "id": "iqiyi-private-std-1-bulan",
+              "planId": "iqiyi-private-std",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 38000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 38.000 (std)"
+            }
+          ]
+        },
+        {
+          "id": "iqiyi-private-prem",
+          "productId": "iqiyi",
+          "name": "Private (prem)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "prem"
+          },
+          "offers": [
+            {
+              "id": "iqiyi-private-prem-1-bulan",
+              "planId": "iqiyi-private-prem",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 45.000 (prem)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viu",
+      "slug": "viu",
+      "name": "Viu",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming drama dan variety show Asia.",
+      "description": null,
+      "image": null,
+      "monogram": "V",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Viu",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "viu-sharing-antilimit",
+          "productId": "viu",
+          "name": "Sharing antilimit",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing antilimit",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "viu-sharing-antilimit-1-hari",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 3000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 3.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-3-hari",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 6000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 6.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-7-hari",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 10000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 10.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-1-bulan",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-2-bulan",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 20.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-3-bulan",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 25.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-6-bulan",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 6,
+              "durationUnit": "month",
+              "durationLabel": "6 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "6 bulan 40.000"
+            },
+            {
+              "id": "viu-sharing-antilimit-1-tahun",
+              "planId": "viu-sharing-antilimit",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 50000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 50.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetv",
+      "slug": "wetv",
+      "name": "WeTV",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming drama dan serial Asia.",
+      "description": null,
+      "image": null,
+      "monogram": "We",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "WeTV",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "wetv-sharing-6u",
+          "productId": "wetv",
+          "name": "Sharing 6u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 6u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "wetv-sharing-6u-1-bulan",
+              "planId": "wetv-sharing-6u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "wetv-sharing-6u-3-bulan",
+              "planId": "wetv-sharing-6u",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 30.000"
+            }
+          ]
+        },
+        {
+          "id": "wetv-sharing-3u",
+          "productId": "wetv",
+          "name": "Sharing 3u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 3u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "wetv-sharing-3u-1-bulan",
+              "planId": "wetv-sharing-3u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            }
+          ]
+        },
+        {
+          "id": "wetv-private",
+          "productId": "wetv",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "wetv-private-1-bulan",
+              "planId": "wetv-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prime",
+      "slug": "prime",
+      "name": "Prime",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming film dan serial.",
+      "description": null,
+      "image": null,
+      "monogram": "Pv",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Prime",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "prime-sharing-4u",
+          "productId": "prime",
+          "name": "Sharing 4u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 4u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "prime-sharing-4u-1-hari",
+              "planId": "prime-sharing-4u",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 4000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 4.000"
+            },
+            {
+              "id": "prime-sharing-4u-3-hari",
+              "planId": "prime-sharing-4u",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 8000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 8.000"
+            },
+            {
+              "id": "prime-sharing-4u-7-hari",
+              "planId": "prime-sharing-4u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 12000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 12.000"
+            },
+            {
+              "id": "prime-sharing-4u-1-bulan",
+              "planId": "prime-sharing-4u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            }
+          ]
+        },
+        {
+          "id": "prime-sharing-3u",
+          "productId": "prime",
+          "name": "Sharing 3u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 3u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "prime-sharing-3u-1-bulan",
+              "planId": "prime-sharing-3u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            }
+          ]
+        },
+        {
+          "id": "prime-sharing-2u",
+          "productId": "prime",
+          "name": "Sharing 2u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 2u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "prime-sharing-2u-1-bulan",
+              "planId": "prime-sharing-2u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            }
+          ]
+        },
+        {
+          "id": "prime-private",
+          "productId": "prime",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "prime-private-1-bulan",
+              "planId": "prime-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "slug": "youtube",
+      "name": "YouTube",
+      "category": "streaming",
+      "shortDescription": "Platform video online.",
+      "description": null,
+      "image": null,
+      "monogram": "YT",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "YouTube",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "youtube-famplan",
+          "productId": "youtube",
+          "name": "Famplan",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Famplan",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "youtube-famplan-1-bulan",
+              "planId": "youtube-famplan",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 12000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 12.000"
+            },
+            {
+              "id": "youtube-famplan-2-bulan",
+              "planId": "youtube-famplan",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 20.000"
+            }
+          ]
+        },
+        {
+          "id": "youtube-indplan",
+          "productId": "youtube",
+          "name": "Indplan",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Indplan",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "youtube-indplan-1-bulan",
+              "planId": "youtube-indplan",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            }
+          ]
+        },
+        {
+          "id": "youtube-mixplan",
+          "productId": "youtube",
+          "name": "Mixplan",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Mixplan",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "youtube-mixplan-2-bulan",
+              "planId": "youtube-mixplan",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 30.000"
+            },
+            {
+              "id": "youtube-mixplan-3-bulan",
+              "planId": "youtube-mixplan",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 45.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hbo",
+      "slug": "hbo",
+      "name": "HBO",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming film dan serial.",
+      "description": null,
+      "image": null,
+      "monogram": "HBO",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "HBO",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "hbo-sharing-standart",
+          "productId": "hbo",
+          "name": "Sharing standart",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing standart",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "hbo-sharing-standart-1-hari",
+              "planId": "hbo-sharing-standart",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 5000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 5.000"
+            },
+            {
+              "id": "hbo-sharing-standart-3-hari",
+              "planId": "hbo-sharing-standart",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 8000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 8.000"
+            },
+            {
+              "id": "hbo-sharing-standart-7-hari",
+              "planId": "hbo-sharing-standart",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 15.000"
+            },
+            {
+              "id": "hbo-sharing-standart-1-bulan",
+              "planId": "hbo-sharing-standart",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            }
+          ]
+        },
+        {
+          "id": "hbo-sharing-ultimate",
+          "productId": "hbo",
+          "name": "Sharing ultimate",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing ultimate",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "hbo-sharing-ultimate-1-hari",
+              "planId": "hbo-sharing-ultimate",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 7000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 7.000"
+            },
+            {
+              "id": "hbo-sharing-ultimate-3-hari",
+              "planId": "hbo-sharing-ultimate",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 12000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 12.000"
+            },
+            {
+              "id": "hbo-sharing-ultimate-7-hari",
+              "planId": "hbo-sharing-ultimate",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 20.000"
+            },
+            {
+              "id": "hbo-sharing-ultimate-1-bulan",
+              "planId": "hbo-sharing-ultimate",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        },
+        {
+          "id": "hbo-private-std",
+          "productId": "hbo",
+          "name": "Private (std)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "std"
+          },
+          "offers": [
+            {
+              "id": "hbo-private-std-1-bulan",
+              "planId": "hbo-private-std",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 75000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 75.000 (std)"
+            }
+          ]
+        },
+        {
+          "id": "hbo-private-ult",
+          "productId": "hbo",
+          "name": "Private (ult)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "ult"
+          },
+          "offers": [
+            {
+              "id": "hbo-private-ult-1-bulan",
+              "planId": "hbo-private-ult",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 125000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 125.000 (ult)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loklok",
+      "slug": "loklok",
+      "name": "Loklok",
+      "category": "streaming",
+      "shortDescription": "Aplikasi streaming film dan drama.",
+      "description": null,
+      "image": null,
+      "monogram": "L",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Loklok",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "loklok-sharing-basic",
+          "productId": "loklok",
+          "name": "Sharing basic",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing basic",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "loklok-sharing-basic-1-bulan",
+              "planId": "loklok-sharing-basic",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            }
+          ]
+        },
+        {
+          "id": "loklok-sharing-standart",
+          "productId": "loklok",
+          "name": "Sharing standart",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing standart",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "loklok-sharing-standart-1-bulan",
+              "planId": "loklok-sharing-standart",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 30.000"
+            }
+          ]
+        },
+        {
+          "id": "loklok-private-basic",
+          "productId": "loklok",
+          "name": "Private (basic)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "basic"
+          },
+          "offers": [
+            {
+              "id": "loklok-private-basic-1-bulan",
+              "planId": "loklok-private-basic",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 60000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 60.000 (basic)"
+            }
+          ]
+        },
+        {
+          "id": "loklok-private-std",
+          "productId": "loklok",
+          "name": "Private (std)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "std"
+          },
+          "offers": [
+            {
+              "id": "loklok-private-std-1-bulan",
+              "planId": "loklok-private-std",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 80000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 80.000 (std)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crunchyroll",
+      "slug": "crunchyroll",
+      "name": "Crunchyroll",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming anime.",
+      "description": null,
+      "image": null,
+      "monogram": "C",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Crunchyroll",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "crunchyroll-sharing",
+          "productId": "crunchyroll",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "crunchyroll-sharing-1-bulan",
+              "planId": "crunchyroll-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            },
+            {
+              "id": "crunchyroll-sharing-1-tahun",
+              "planId": "crunchyroll-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 35.000"
+            }
+          ]
+        },
+        {
+          "id": "crunchyroll-private",
+          "productId": "crunchyroll",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "crunchyroll-private-7-hari",
+              "planId": "crunchyroll-private",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": null,
+              "availability": "needs_confirmation",
+              "updatedAt": "2026-06-27",
+              "note": "Harga belum tercantum di pricelist.",
+              "source": "7 hari — harga tidak tercantum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bstation",
+      "slug": "bstation",
+      "name": "Bstation",
+      "category": "streaming",
+      "shortDescription": "Platform streaming anime dan video.",
+      "description": null,
+      "image": null,
+      "monogram": "B",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Bstation",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "bstation-sharing",
+          "productId": "bstation",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "bstation-sharing-7-hari",
+              "planId": "bstation-sharing",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 11000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 11.000"
+            },
+            {
+              "id": "bstation-sharing-1-bulan",
+              "planId": "bstation-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "bstation-sharing-3-bulan",
+              "planId": "bstation-sharing",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 25.000"
+            },
+            {
+              "id": "bstation-sharing-1-tahun",
+              "planId": "bstation-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 45.000"
+            }
+          ]
+        },
+        {
+          "id": "bstation-private",
+          "productId": "bstation",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "bstation-private-1-bulan",
+              "planId": "bstation-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gagaolala",
+      "slug": "gagaolala",
+      "name": "Gagaolala",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming film dan serial Asia.",
+      "description": null,
+      "image": null,
+      "monogram": "G",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Gagaolala",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "gagaolala-sharing",
+          "productId": "gagaolala",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "gagaolala-sharing-1-bulan",
+              "planId": "gagaolala-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            },
+            {
+              "id": "gagaolala-sharing-3-bulan",
+              "planId": "gagaolala-sharing",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 30.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mango-tv",
+      "slug": "mango-tv",
+      "name": "Mango TV",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming drama dan variety show Tiongkok.",
+      "description": null,
+      "image": null,
+      "monogram": "MT",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Mango TV",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "mango-tv-sharing",
+          "productId": "mango-tv",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "mango-tv-sharing-1-bulan",
+              "planId": "mango-tv-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viki",
+      "slug": "viki",
+      "name": "Viki",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming drama dan film Asia.",
+      "description": null,
+      "image": null,
+      "monogram": "V",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Viki",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "viki-sharing-plus",
+          "productId": "viki",
+          "name": "Sharing (plus)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": "plus"
+          },
+          "offers": [
+            {
+              "id": "viki-sharing-plus-1-bulan",
+              "planId": "viki-sharing-plus",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000 (plus)"
+            }
+          ]
+        },
+        {
+          "id": "viki-sharing-std",
+          "productId": "viki",
+          "name": "Sharing (std)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": "std"
+          },
+          "offers": [
+            {
+              "id": "viki-sharing-std-1-bulan",
+              "planId": "viki-sharing-std",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 18000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 18.000 (std)"
+            }
+          ]
+        },
+        {
+          "id": "viki-private",
+          "productId": "viki",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "viki-private-7-hari",
+              "planId": "viki-private",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 18000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 18.000"
+            }
+          ]
+        },
+        {
+          "id": "viki-private-std",
+          "productId": "viki",
+          "name": "Private (std)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "std"
+          },
+          "offers": [
+            {
+              "id": "viki-private-std-1-bulan",
+              "planId": "viki-private-std",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000 (std)"
+            }
+          ]
+        },
+        {
+          "id": "viki-private-plus",
+          "productId": "viki",
+          "name": "Private (plus)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": "plus"
+          },
+          "offers": [
+            {
+              "id": "viki-private-plus-1-bulan",
+              "planId": "viki-private-plus",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 30.000 (plus)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drakor-id",
+      "slug": "drakor-id",
+      "name": "Drakor ID",
+      "category": "streaming",
+      "shortDescription": "Aplikasi streaming drama Korea.",
+      "description": null,
+      "image": null,
+      "monogram": "DI",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Drakor ID",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "drakor-id-sharing",
+          "productId": "drakor-id",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "drakor-id-sharing-1-bulan",
+              "planId": "drakor-id-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "drakor-id-sharing-3-bulan",
+              "planId": "drakor-id-sharing",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 35.000"
+            },
+            {
+              "id": "drakor-id-sharing-1-tahun",
+              "planId": "drakor-id-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 45.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youku",
+      "slug": "youku",
+      "name": "Youku",
+      "category": "streaming",
+      "shortDescription": "Layanan streaming drama dan film Tiongkok.",
+      "description": null,
+      "image": null,
+      "monogram": "Y",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Youku",
+        "section": "STREAMING APPS"
+      },
+      "plans": [
+        {
+          "id": "youku-sharing",
+          "productId": "youku",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "youku-sharing-1-hari",
+              "planId": "youku-sharing",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 4000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 4.000"
+            },
+            {
+              "id": "youku-sharing-3-hari",
+              "planId": "youku-sharing",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 7000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 7.000"
+            },
+            {
+              "id": "youku-sharing-7-hari",
+              "planId": "youku-sharing",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 10000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 10.000"
+            },
+            {
+              "id": "youku-sharing-1-bulan",
+              "planId": "youku-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "youku-sharing-2-bulan",
+              "planId": "youku-sharing",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 20.000"
+            },
+            {
+              "id": "youku-sharing-3-bulan",
+              "planId": "youku-sharing",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 25.000"
+            },
+            {
+              "id": "youku-sharing-1-tahun",
+              "planId": "youku-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 45.000"
+            }
+          ]
+        },
+        {
+          "id": "youku-private",
+          "productId": "youku",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "youku-private-1-bulan",
+              "planId": "youku-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 45.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-go",
+      "slug": "chatgpt-go",
+      "name": "ChatGPT Go",
+      "category": "education",
+      "shortDescription": "Asisten AI untuk menulis, belajar, dan tanya jawab.",
+      "description": null,
+      "image": null,
+      "monogram": "CG",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "ChatGPT Go",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "chatgpt-go-sharing",
+          "productId": "chatgpt-go",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "chatgpt-go-sharing-1-hari",
+              "planId": "chatgpt-go-sharing",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 6000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 6.000"
+            },
+            {
+              "id": "chatgpt-go-sharing-3-hari",
+              "planId": "chatgpt-go-sharing",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 10000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 10.000"
+            },
+            {
+              "id": "chatgpt-go-sharing-7-hari",
+              "planId": "chatgpt-go-sharing",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 15.000"
+            },
+            {
+              "id": "chatgpt-go-sharing-1-bulan",
+              "planId": "chatgpt-go-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            },
+            {
+              "id": "chatgpt-go-sharing-3-bulan",
+              "planId": "chatgpt-go-sharing",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 80000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 80.000"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-go-private",
+          "productId": "chatgpt-go",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "chatgpt-go-private-1-bulan",
+              "planId": "chatgpt-go-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 65000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 65.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-plus",
+      "slug": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "category": "education",
+      "shortDescription": "Asisten AI untuk menulis, belajar, dan tanya jawab.",
+      "description": null,
+      "image": null,
+      "monogram": "C+",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "ChatGPT Plus",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "chatgpt-plus-sharing-8u",
+          "productId": "chatgpt-plus",
+          "name": "Sharing 8u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 8u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "chatgpt-plus-sharing-8u-1-hari",
+              "planId": "chatgpt-plus-sharing-8u",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 10000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 10.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-8u-3-hari",
+              "planId": "chatgpt-plus-sharing-8u",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 15.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-8u-7-hari",
+              "planId": "chatgpt-plus-sharing-8u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 20.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-8u-1-bulan",
+              "planId": "chatgpt-plus-sharing-8u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-8u-3-bulan",
+              "planId": "chatgpt-plus-sharing-8u",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 85000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 85.000"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-plus-sharing-5u",
+          "productId": "chatgpt-plus",
+          "name": "Sharing 5u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 5u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "chatgpt-plus-sharing-5u-1-hari",
+              "planId": "chatgpt-plus-sharing-5u",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 15.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-5u-3-hari",
+              "planId": "chatgpt-plus-sharing-5u",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 20.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-5u-7-hari",
+              "planId": "chatgpt-plus-sharing-5u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 30.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-5u-1-bulan",
+              "planId": "chatgpt-plus-sharing-5u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 55000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 55.000"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-plus-sharing-3u",
+          "productId": "chatgpt-plus",
+          "name": "Sharing 3u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 3u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "chatgpt-plus-sharing-3u-1-hari",
+              "planId": "chatgpt-plus-sharing-3u",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 18000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 18.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-3u-3-hari",
+              "planId": "chatgpt-plus-sharing-3u",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 25.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-3u-7-hari",
+              "planId": "chatgpt-plus-sharing-3u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 35.000"
+            },
+            {
+              "id": "chatgpt-plus-sharing-3u-1-bulan",
+              "planId": "chatgpt-plus-sharing-3u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 65000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 65.000"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-plus-private",
+          "productId": "chatgpt-plus",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "chatgpt-plus-private-1-bulan",
+              "planId": "chatgpt-plus-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 170000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 170.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perplexity-ai",
+      "slug": "perplexity-ai",
+      "name": "Perplexity AI",
+      "category": "education",
+      "shortDescription": "Mesin pencari jawaban berbasis AI.",
+      "description": null,
+      "image": null,
+      "monogram": "PA",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Perplexity AI",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "perplexity-ai-sharing",
+          "productId": "perplexity-ai",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "perplexity-ai-sharing-7-hari",
+              "planId": "perplexity-ai-sharing",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 23000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 23.000"
+            },
+            {
+              "id": "perplexity-ai-sharing-1-bulan",
+              "planId": "perplexity-ai-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 40.000"
+            }
+          ]
+        },
+        {
+          "id": "perplexity-ai-private",
+          "productId": "perplexity-ai",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "perplexity-ai-private-5-hari",
+              "planId": "perplexity-ai-private",
+              "durationValue": 5,
+              "durationUnit": "day",
+              "durationLabel": "5 hari",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "5 hari 20.000"
+            },
+            {
+              "id": "perplexity-ai-private-7-hari",
+              "planId": "perplexity-ai-private",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 25.000"
+            },
+            {
+              "id": "perplexity-ai-private-1-bulan",
+              "planId": "perplexity-ai-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 38000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 38.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini-ai",
+      "slug": "gemini-ai",
+      "name": "Gemini AI",
+      "category": "education",
+      "shortDescription": "Asisten AI untuk menulis, belajar, dan produktivitas.",
+      "description": null,
+      "image": null,
+      "monogram": "GA",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Gemini AI",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "gemini-ai-famplan",
+          "productId": "gemini-ai",
+          "name": "Famplan",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Famplan",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "gemini-ai-famplan-1-bulan",
+              "planId": "gemini-ai-famplan",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            },
+            {
+              "id": "gemini-ai-famplan-2-bulan",
+              "planId": "gemini-ai-famplan",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 40.000"
+            },
+            {
+              "id": "gemini-ai-famplan-3-bulan",
+              "planId": "gemini-ai-famplan",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 55000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 55.000"
+            },
+            {
+              "id": "gemini-ai-famplan-4-bulan",
+              "planId": "gemini-ai-famplan",
+              "durationValue": 4,
+              "durationUnit": "month",
+              "durationLabel": "4 bulan",
+              "priceIdr": 70000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "4 bulan 70.000"
+            },
+            {
+              "id": "gemini-ai-famplan-6-bulan",
+              "planId": "gemini-ai-famplan",
+              "durationValue": 6,
+              "durationUnit": "month",
+              "durationLabel": "6 bulan",
+              "priceIdr": 95000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "6 bulan 95.000"
+            },
+            {
+              "id": "gemini-ai-famplan-1-tahun",
+              "planId": "gemini-ai-famplan",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 120000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 120.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude-ai",
+      "slug": "claude-ai",
+      "name": "Claude AI",
+      "category": "education",
+      "shortDescription": "Asisten AI untuk menulis, analisis, dan belajar.",
+      "description": null,
+      "image": null,
+      "monogram": "CA",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Claude AI",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "claude-ai-sharing",
+          "productId": "claude-ai",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "claude-ai-sharing-7-hari",
+              "planId": "claude-ai-sharing",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 65000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 65.000"
+            }
+          ]
+        },
+        {
+          "id": "claude-ai-sharing-3u",
+          "productId": "claude-ai",
+          "name": "Sharing (3u)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": "3u"
+          },
+          "offers": [
+            {
+              "id": "claude-ai-sharing-3u-1-bulan",
+              "planId": "claude-ai-sharing-3u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 170000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 170.000 (3u)"
+            }
+          ]
+        },
+        {
+          "id": "claude-ai-sharing-5u",
+          "productId": "claude-ai",
+          "name": "Sharing (5u)",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": "5u"
+          },
+          "offers": [
+            {
+              "id": "claude-ai-sharing-5u-1-bulan",
+              "planId": "claude-ai-sharing-5u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 150000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 150.000 (5u)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grok-ai",
+      "slug": "grok-ai",
+      "name": "Grok AI",
+      "category": "education",
+      "shortDescription": "Asisten AI untuk tanya jawab dan menulis.",
+      "description": null,
+      "image": null,
+      "monogram": "GA",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Grok AI",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "grok-ai-private",
+          "productId": "grok-ai",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "grok-ai-private-3-hari",
+              "planId": "grok-ai-private",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 25.000"
+            },
+            {
+              "id": "grok-ai-private-7-hari",
+              "planId": "grok-ai-private",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 35.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blackbox-ai",
+      "slug": "blackbox-ai",
+      "name": "Blackbox AI",
+      "category": "education",
+      "shortDescription": "Asisten AI untuk menulis dan memahami kode.",
+      "description": null,
+      "image": null,
+      "monogram": "BA",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Blackbox AI",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "blackbox-ai-sharing",
+          "productId": "blackbox-ai",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "blackbox-ai-sharing-1-bulan",
+              "planId": "blackbox-ai-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microsoft-365",
+      "slug": "microsoft-365",
+      "name": "Microsoft 365",
+      "category": "education",
+      "shortDescription": "Rangkaian aplikasi perkantoran.",
+      "description": null,
+      "image": null,
+      "monogram": "365",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Microsoft 365",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "microsoft-365-invite",
+          "productId": "microsoft-365",
+          "name": "Invite",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Invite",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "microsoft-365-invite-1-bulan",
+              "planId": "microsoft-365-invite",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "microsoft-365-invite-2-bulan",
+              "planId": "microsoft-365-invite",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 25.000"
+            },
+            {
+              "id": "microsoft-365-invite-3-bulan",
+              "planId": "microsoft-365-invite",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 30.000"
+            },
+            {
+              "id": "microsoft-365-invite-6-bulan",
+              "planId": "microsoft-365-invite",
+              "durationValue": 6,
+              "durationUnit": "month",
+              "durationLabel": "6 bulan",
+              "priceIdr": 55000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "6 bulan 55.000"
+            },
+            {
+              "id": "microsoft-365-invite-1-tahun",
+              "planId": "microsoft-365-invite",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 60000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 60.000"
+            }
+          ]
+        },
+        {
+          "id": "microsoft-365-head",
+          "productId": "microsoft-365",
+          "name": "Head",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Head",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "microsoft-365-head-1-bulan",
+              "planId": "microsoft-365-head",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 45.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goodnotes",
+      "slug": "goodnotes",
+      "name": "Goodnotes",
+      "category": "education",
+      "shortDescription": "Aplikasi catatan digital.",
+      "description": null,
+      "image": null,
+      "monogram": "G",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Goodnotes ✅",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "goodnotes-paket",
+          "productId": "goodnotes",
+          "name": null,
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "—",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "goodnotes-paket-1-tahun",
+              "planId": "goodnotes-paket",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 40.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quillbot",
+      "slug": "quillbot",
+      "name": "Quillbot",
+      "category": "education",
+      "shortDescription": "Alat parafrase dan penyuntingan tulisan.",
+      "description": null,
+      "image": null,
+      "monogram": "Q",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Quillbot",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "quillbot-sharing",
+          "productId": "quillbot",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "quillbot-sharing-1-bulan",
+              "planId": "quillbot-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 30.000"
+            }
+          ]
+        },
+        {
+          "id": "quillbot-private",
+          "productId": "quillbot",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "quillbot-private-1-bulan",
+              "planId": "quillbot-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 60000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 60.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammarly",
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "category": "education",
+      "shortDescription": "Alat pemeriksa tata bahasa tulisan bahasa Inggris.",
+      "description": null,
+      "image": null,
+      "monogram": "G",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Grammarly ✅",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "grammarly-sharing",
+          "productId": "grammarly",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "grammarly-sharing-1-bulan",
+              "planId": "grammarly-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            }
+          ]
+        },
+        {
+          "id": "grammarly-private",
+          "productId": "grammarly",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "grammarly-private-1-bulan",
+              "planId": "grammarly-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 55000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 55.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scribd",
+      "slug": "scribd",
+      "name": "Scribd",
+      "category": "education",
+      "shortDescription": "Perpustakaan digital e-book, audiobook, dan dokumen.",
+      "description": null,
+      "image": null,
+      "monogram": "S",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Scribd ✅",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "scribd-sharing",
+          "productId": "scribd",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "scribd-sharing-1-bulan",
+              "planId": "scribd-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            }
+          ]
+        },
+        {
+          "id": "scribd-private",
+          "productId": "scribd",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "scribd-private-1-bulan",
+              "planId": "scribd-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wps-office",
+      "slug": "wps-office",
+      "name": "WPS Office",
+      "category": "education",
+      "shortDescription": "Aplikasi perkantoran untuk dokumen, spreadsheet, dan presentasi.",
+      "description": null,
+      "image": null,
+      "monogram": "WO",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "WPS Office",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "wps-office-sharing",
+          "productId": "wps-office",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [
+            "Pricelist mencantumkan opsi tambahan AI. Tarif dan cakupannya belum dikonfirmasi, hubungi admin."
+          ],
+          "source": {
+            "name": "Sharing",
+            "variant": null,
+            "note": "include ai +1k"
+          },
+          "offers": [
+            {
+              "id": "wps-office-sharing-1-bulan",
+              "planId": "wps-office-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            },
+            {
+              "id": "wps-office-sharing-1-tahun",
+              "planId": "wps-office-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 30.000"
+            }
+          ]
+        },
+        {
+          "id": "wps-office-private",
+          "productId": "wps-office",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "wps-office-private-1-bulan",
+              "planId": "wps-office-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": null,
+              "availability": "needs_confirmation",
+              "updatedAt": "2026-06-27",
+              "note": "Pricelist mencantumkan dua harga berbeda untuk durasi ini, perlu dikonfirmasi admin.",
+              "source": "1 bulan 40.000; 1 bulan 50.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duolingo-super",
+      "slug": "duolingo-super",
+      "name": "Duolingo Super",
+      "category": "education",
+      "shortDescription": "Aplikasi belajar bahasa asing.",
+      "description": null,
+      "image": null,
+      "monogram": "DS",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Duolingo Super",
+        "section": "EDUCATION APPS"
+      },
+      "plans": [
+        {
+          "id": "duolingo-super-famplan",
+          "productId": "duolingo-super",
+          "name": "Famplan",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Famplan",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "duolingo-super-famplan-1-bulan",
+              "planId": "duolingo-super-famplan",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            }
+          ]
+        },
+        {
+          "id": "duolingo-super-indplan",
+          "productId": "duolingo-super",
+          "name": "Indplan",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Indplan",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "duolingo-super-indplan-1-bulan",
+              "planId": "duolingo-super-indplan",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 30.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "slug": "canva",
+      "name": "Canva",
+      "category": "editing",
+      "shortDescription": "Aplikasi desain grafis untuk presentasi, media sosial, dan lainnya.",
+      "description": null,
+      "image": null,
+      "monogram": "C",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Canva",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "canva-invite-member",
+          "productId": "canva",
+          "name": "Invite member",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [
+            "Pricelist mencantumkan opsi tambahan designer. Tarif dan cakupannya belum dikonfirmasi, hubungi admin."
+          ],
+          "source": {
+            "name": "Invite member",
+            "variant": null,
+            "note": "designer +2k"
+          },
+          "offers": [
+            {
+              "id": "canva-invite-member-1-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 1,
+              "durationUnit": "day",
+              "durationLabel": "1 hari",
+              "priceIdr": 3000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 hari 3.000"
+            },
+            {
+              "id": "canva-invite-member-2-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 2,
+              "durationUnit": "day",
+              "durationLabel": "2 hari",
+              "priceIdr": 4000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 hari 4.000"
+            },
+            {
+              "id": "canva-invite-member-3-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 3,
+              "durationUnit": "day",
+              "durationLabel": "3 hari",
+              "priceIdr": 5000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 hari 5.000"
+            },
+            {
+              "id": "canva-invite-member-4-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 4,
+              "durationUnit": "day",
+              "durationLabel": "4 hari",
+              "priceIdr": 5500,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "4 hari 5.500"
+            },
+            {
+              "id": "canva-invite-member-5-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 5,
+              "durationUnit": "day",
+              "durationLabel": "5 hari",
+              "priceIdr": 6000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "5 hari 6.000"
+            },
+            {
+              "id": "canva-invite-member-6-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 6,
+              "durationUnit": "day",
+              "durationLabel": "6 hari",
+              "priceIdr": 6500,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "6 hari 6.500"
+            },
+            {
+              "id": "canva-invite-member-7-hari",
+              "planId": "canva-invite-member",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 7000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 7.000"
+            },
+            {
+              "id": "canva-invite-member-1-bulan",
+              "planId": "canva-invite-member",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 12000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 12.000"
+            },
+            {
+              "id": "canva-invite-member-2-bulan",
+              "planId": "canva-invite-member",
+              "durationValue": 2,
+              "durationUnit": "month",
+              "durationLabel": "2 bulan",
+              "priceIdr": 14000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "2 bulan 14.000"
+            },
+            {
+              "id": "canva-invite-member-3-bulan",
+              "planId": "canva-invite-member",
+              "durationValue": 3,
+              "durationUnit": "month",
+              "durationLabel": "3 bulan",
+              "priceIdr": 17000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "3 bulan 17.000"
+            },
+            {
+              "id": "canva-invite-member-4-bulan",
+              "planId": "canva-invite-member",
+              "durationValue": 4,
+              "durationUnit": "month",
+              "durationLabel": "4 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "4 bulan 20.000"
+            },
+            {
+              "id": "canva-invite-member-5-bulan",
+              "planId": "canva-invite-member",
+              "durationValue": 5,
+              "durationUnit": "month",
+              "durationLabel": "5 bulan",
+              "priceIdr": 24000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "5 bulan 24.000"
+            },
+            {
+              "id": "canva-invite-member-6-bulan",
+              "planId": "canva-invite-member",
+              "durationValue": 6,
+              "durationUnit": "month",
+              "durationLabel": "6 bulan",
+              "priceIdr": 27000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "6 bulan 27.000"
+            },
+            {
+              "id": "canva-invite-member-1-tahun",
+              "planId": "canva-invite-member",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 32000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 32.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capcut",
+      "slug": "capcut",
+      "name": "CapCut",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit video.",
+      "description": null,
+      "image": null,
+      "monogram": "CC",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "CapCut",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "capcut-sharing-3u",
+          "productId": "capcut",
+          "name": "Sharing 3u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 3u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "capcut-sharing-3u-7-hari",
+              "planId": "capcut-sharing-3u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 17000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 17.000"
+            },
+            {
+              "id": "capcut-sharing-3u-1-bulan",
+              "planId": "capcut-sharing-3u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        },
+        {
+          "id": "capcut-sharing-2u",
+          "productId": "capcut",
+          "name": "Sharing 2u",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing 2u",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "capcut-sharing-2u-7-hari",
+              "planId": "capcut-sharing-2u",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 20.000"
+            },
+            {
+              "id": "capcut-sharing-2u-1-bulan",
+              "planId": "capcut-sharing-2u",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 45000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 45.000"
+            }
+          ]
+        },
+        {
+          "id": "capcut-private",
+          "productId": "capcut",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "capcut-private-7-hari",
+              "planId": "capcut-private",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 25.000"
+            },
+            {
+              "id": "capcut-private-1-bulan",
+              "planId": "capcut-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 67000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 67.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remini",
+      "slug": "remini",
+      "name": "Remini",
+      "category": "editing",
+      "shortDescription": "Aplikasi peningkat kualitas foto berbasis AI.",
+      "description": null,
+      "image": null,
+      "monogram": "R",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Remini",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "remini-sharing",
+          "productId": "remini",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "remini-sharing-7-hari",
+              "planId": "remini-sharing",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 10000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 10.000"
+            },
+            {
+              "id": "remini-sharing-1-bulan",
+              "planId": "remini-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            }
+          ]
+        },
+        {
+          "id": "remini-private",
+          "productId": "remini",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "remini-private-7-hari",
+              "planId": "remini-private",
+              "durationValue": 7,
+              "durationUnit": "day",
+              "durationLabel": "7 hari",
+              "priceIdr": 14000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "7 hari 14.000"
+            },
+            {
+              "id": "remini-private-1-bulan",
+              "planId": "remini-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "picsart",
+      "slug": "picsart",
+      "name": "Picsart",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit foto dan desain.",
+      "description": null,
+      "image": null,
+      "monogram": "Pa",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Picsart",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "picsart-sharing",
+          "productId": "picsart",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "picsart-sharing-1-bulan",
+              "planId": "picsart-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            }
+          ]
+        },
+        {
+          "id": "picsart-private",
+          "productId": "picsart",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "picsart-private-1-bulan",
+              "planId": "picsart-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 25000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 25.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alight-motion",
+      "slug": "alight-motion",
+      "name": "Alight Motion",
+      "category": "editing",
+      "shortDescription": "Aplikasi animasi dan edit video.",
+      "description": null,
+      "image": null,
+      "monogram": "AM",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Alight Motion",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "alight-motion-sharing",
+          "productId": "alight-motion",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "alight-motion-sharing-1-bulan",
+              "planId": "alight-motion-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 15000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 15.000"
+            },
+            {
+              "id": "alight-motion-sharing-1-tahun",
+              "planId": "alight-motion-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 30.000"
+            }
+          ]
+        },
+        {
+          "id": "alight-motion-private",
+          "productId": "alight-motion",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "alight-motion-private-1-bulan",
+              "planId": "alight-motion-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 35.000"
+            },
+            {
+              "id": "alight-motion-private-1-tahun",
+              "planId": "alight-motion-private",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 50000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 50.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camscanner",
+      "slug": "camscanner",
+      "name": "CamScanner",
+      "category": "editing",
+      "shortDescription": "Aplikasi pemindai dokumen lewat kamera ponsel.",
+      "description": null,
+      "image": null,
+      "monogram": "CS",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "CamScanner",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "camscanner-sharing",
+          "productId": "camscanner",
+          "name": "Sharing",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Sharing",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "camscanner-sharing-1-bulan",
+              "planId": "camscanner-sharing",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 20000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 20.000"
+            },
+            {
+              "id": "camscanner-sharing-6-bulan",
+              "planId": "camscanner-sharing",
+              "durationValue": 6,
+              "durationUnit": "month",
+              "durationLabel": "6 bulan",
+              "priceIdr": 35000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "6 bulan 35.000"
+            },
+            {
+              "id": "camscanner-sharing-1-tahun",
+              "planId": "camscanner-sharing",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 40000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 40.000"
+            }
+          ]
+        },
+        {
+          "id": "camscanner-private",
+          "productId": "camscanner",
+          "name": "Private",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Private",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "camscanner-private-1-bulan",
+              "planId": "camscanner-private",
+              "durationValue": 1,
+              "durationUnit": "month",
+              "durationLabel": "1 bulan",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 bulan 30.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dazzcam-ios",
+      "slug": "dazzcam-ios",
+      "name": "Dazzcam iOS",
+      "category": "editing",
+      "shortDescription": "Aplikasi kamera bergaya film untuk iOS.",
+      "description": null,
+      "image": null,
+      "monogram": "DI",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Dazzcam iOS",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "dazzcam-ios-lifetime",
+          "productId": "dazzcam-ios",
+          "name": "Lifetime",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": {
+            "value": 6,
+            "unit": "month",
+            "label": "6 bulan"
+          },
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Lifetime",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "dazzcam-ios-lifetime-lifetime",
+              "planId": "dazzcam-ios-lifetime",
+              "durationValue": null,
+              "durationUnit": "lifetime",
+              "durationLabel": "Lifetime",
+              "priceIdr": 30000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "Garansi 6 bulan 30.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty-plus",
+      "slug": "beauty-plus",
+      "name": "Beauty Plus",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit foto dan selfie.",
+      "description": null,
+      "image": null,
+      "monogram": "BP",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Beauty Plus",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "beauty-plus-ios",
+          "productId": "beauty-plus",
+          "name": "iOS",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "iOS",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "beauty-plus-ios-1-tahun",
+              "planId": "beauty-plus-ios",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 33000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 33.000"
+            }
+          ]
+        },
+        {
+          "id": "beauty-plus-andro",
+          "productId": "beauty-plus",
+          "name": "Andro",
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "Andro",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "beauty-plus-andro-1-tahun",
+              "planId": "beauty-plus-andro",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 33000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 33.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ibis-paint",
+      "slug": "ibis-paint",
+      "name": "Ibis Paint",
+      "category": "editing",
+      "shortDescription": "Aplikasi menggambar dan ilustrasi digital.",
+      "description": null,
+      "image": null,
+      "monogram": "IP",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Ibis Paint",
+        "section": "EDITING APPS"
+      },
+      "plans": [
+        {
+          "id": "ibis-paint-paket",
+          "productId": "ibis-paint",
+          "name": null,
+          "accessType": null,
+          "usageRules": null,
+          "warrantyTerms": null,
+          "warrantyPeriod": null,
+          "activationNotes": null,
+          "status": "active",
+          "notes": [],
+          "source": {
+            "name": "—",
+            "variant": null
+          },
+          "offers": [
+            {
+              "id": "ibis-paint-paket-1-tahun",
+              "planId": "ibis-paint-paket",
+              "durationValue": 1,
+              "durationUnit": "year",
+              "durationLabel": "1 tahun",
+              "priceIdr": 32000,
+              "availability": "available",
+              "updatedAt": "2026-06-27",
+              "note": null,
+              "source": "1 tahun 32.000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lightroom",
+      "slug": "lightroom",
+      "name": "Lightroom",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit dan pengelolaan foto.",
+      "description": null,
+      "image": null,
+      "monogram": "L",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Lightroom",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "meitu",
+      "slug": "meitu",
+      "name": "Meitu",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit foto dan selfie.",
+      "description": null,
+      "image": null,
+      "monogram": "M",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Meitu",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "oldroll-android",
+      "slug": "oldroll-android",
+      "name": "Oldroll Android",
+      "category": "editing",
+      "shortDescription": "Aplikasi kamera bergaya film analog untuk Android.",
+      "description": null,
+      "image": null,
+      "monogram": "OA",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Oldroll andoid",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "wink",
+      "slug": "wink",
+      "name": "Wink",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit dan retouch video.",
+      "description": null,
+      "image": null,
+      "monogram": "W",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Wink",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "polarr",
+      "slug": "polarr",
+      "name": "Polarr",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit foto dengan filter.",
+      "description": null,
+      "image": null,
+      "monogram": "Po",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Polarr",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "prequel",
+      "slug": "prequel",
+      "name": "Prequel",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit foto dan video dengan efek.",
+      "description": null,
+      "image": null,
+      "monogram": "Pq",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Prequel",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "photoroom",
+      "slug": "photoroom",
+      "name": "Photoroom",
+      "category": "editing",
+      "shortDescription": "Aplikasi hapus latar dan foto produk.",
+      "description": null,
+      "image": null,
+      "monogram": "Pr",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Photoroom",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "picwish",
+      "slug": "picwish",
+      "name": "Picwish",
+      "category": "editing",
+      "shortDescription": "Aplikasi edit foto berbasis AI.",
+      "description": null,
+      "image": null,
+      "monogram": "Pw",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Picwish",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "procreate",
+      "slug": "procreate",
+      "name": "Procreate",
+      "category": "editing",
+      "shortDescription": "Aplikasi ilustrasi digital untuk iPad.",
+      "description": null,
+      "image": null,
+      "monogram": "Pc",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Procreate",
+        "section": "EDITING APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "apple-music",
+      "slug": "apple-music",
+      "name": "Apple Music",
+      "category": "music",
+      "shortDescription": "Layanan streaming musik.",
+      "description": null,
+      "image": null,
+      "monogram": "AM",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Apple Music",
+        "section": "MUSIC APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    },
+    {
+      "id": "wattpad",
+      "slug": "wattpad",
+      "name": "Wattpad",
+      "category": "other",
+      "shortDescription": "Platform membaca dan menulis cerita.",
+      "description": null,
+      "image": null,
+      "monogram": "W",
+      "status": "active",
+      "updatedAt": "2026-06-27",
+      "source": {
+        "name": "Wattpad",
+        "section": "OTHER APPS",
+        "noDetails": "Tanpa rincian paket atau harga"
+      },
+      "plans": []
+    }
+  ]
+}
