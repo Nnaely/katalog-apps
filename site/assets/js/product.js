@@ -4,7 +4,7 @@ import { formatRupiah } from './lib/format.js';
 import { initialSelection, choosePlan, chooseOffer, describeSelection } from './lib/selection.js';
 import { createSelectionStore } from './lib/storage.js';
 import {
-  bindStore, loadCatalog, el, icon, monogram, copyText, track, helpLink, catalogBackHref, safeSessionStorage, fillCatalogDate,
+  bindStore, loadCatalog, el, icon, productVisual, copyText, track, helpLink, catalogBackHref, safeSessionStorage, fillCatalogDate,
 } from './ui.js';
 
 const root = document.querySelector('[data-product-root]');
@@ -218,7 +218,7 @@ function renderProduct() {
   document.title = `${product.name}: paket dan harga | ${STORE.name}`;
   const categoryName = catalog.categories.find(c => c.id === product.category)?.name ?? 'Lainnya';
   const head = el('header', { class: 'product-head' },
-    monogram(product, 'mono mono--lg'),
+    productVisual(product, { large: true, eager: true }),
     el('div', { class: 'product-head-text' },
       el('h1', { class: 'product-title', id: 'product-title', text: product.name }),
       el('p', { class: 'product-desc', text: product.description || product.shortDescription || '' }),

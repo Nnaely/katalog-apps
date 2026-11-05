@@ -4,7 +4,7 @@ import { formatRupiah } from './lib/format.js';
 import { orderMessage } from './lib/whatsapp.js';
 import { parseCatalogQuery, toCatalogSearch, ALL_CATEGORIES } from './lib/query.js';
 import {
-  bindStore, loadCatalog, el, icon, monogram, fillCatalogDate, helpLink, rememberCatalogSearch,
+  bindStore, loadCatalog, el, icon, productVisual, fillCatalogDate, helpLink, rememberCatalogSearch,
 } from './ui.js';
 
 const grid = document.querySelector('[data-product-grid]');
@@ -85,7 +85,7 @@ function priceBlock(p) {
 function card(p, index) {
   const planCount = p.plans.length;
   return el('li', { class: 'product-card' },
-    monogram(p),
+    productVisual(p, { eager: index < 8 }),
     el('div', { class: 'card-main' },
       el('h3', { class: 'card-title' },
         el('a', { class: 'card-link', href: `produk?p=${encodeURIComponent(p.slug)}` }, p.name)),

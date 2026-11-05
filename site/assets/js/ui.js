@@ -52,6 +52,19 @@ export function monogram(product, className = 'mono') {
   return el('span', { class: className, 'aria-hidden': 'true', dataset: { cat: product.category ?? 'other' } }, product.monogram || product.name.charAt(0));
 }
 
+/** App icon when the catalog has one; falls back to the monogram if missing or it fails to load. */
+export function productVisual(product, { large = false, eager = false } = {}) {
+  const fallback = () => monogram(product, large ? 'mono mono--lg' : 'mono');
+  if (!product.image) return fallback();
+  const size = large ? 76 : 52;
+  const img = el('img', {
+    class: large ? 'logo logo--lg' : 'logo', src: product.image, alt: '', width: String(size), height: String(size),
+    loading: eager ? 'eager' : 'lazy', decoding: 'async',
+  });
+  img.addEventListener('error', () => img.replaceWith(fallback()), { once: true });
+  return img;
+}
+
 const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
 export function formatDateId(iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso ?? '');

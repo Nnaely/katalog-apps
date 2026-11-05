@@ -2,6 +2,7 @@
 // Catches: invented/typo'd prices, missing products, ambiguous data shown as orderable.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import { validateCatalog, prepareCatalog } from '../site/assets/js/lib/catalog.js';
 import { loadRealCatalog, loadPricelistSnapshot } from './helpers.js';
 
@@ -74,6 +75,17 @@ test('tarif tambahan yang belum dikonfirmasi (AI WPS, designer Canva) tidak dita
 test('harga mulai di kartu memakai penawaran valid termurah', () => {
   const cases = { netflix: 6000, canva: 3000, crunchyroll: 20000, 'wps-office': 20000, 'dazzcam-ios': 30000, lightroom: null };
   for (const [slug, want] of Object.entries(cases)) assert.equal(real.getProduct(slug).startingPrice, want, slug);
+});
+
+test('setiap logo produk yang diisi menunjuk ke file WebP yang benar-benar ada', () => {
+  const withImage = raw.products.filter(p => p.image !== null);
+  assert.ok(withImage.length >= 40, `hanya ${withImage.length} produk berlogo`);
+  for (const p of withImage) {
+    const file = new URL(`../site/${p.image}`, import.meta.url);
+    assert.ok(fs.existsSync(file), `${p.slug}: ${p.image} tidak ada`);
+    const head = fs.readFileSync(file).subarray(0, 12);
+    assert.equal(head.subarray(0, 4).toString() + head.subarray(8, 12).toString(), 'RIFFWEBP', `${p.slug}: bukan WebP`);
+  }
 });
 
 // ---- Fidelity against the pricelist snapshot (independent parser) ----
