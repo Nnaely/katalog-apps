@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+.DS_Store
+Thumbs.db
+*.log
+
+# Konfigurasi alat lokal
+.claude/
+
+# Gambar referensi palet milik pembuatnya ("All Rights Reserved"), tidak ikut dipublikasikan
+WhatsApp Image 2026-11-05 at 06.05.37.jpeg

@@ -1,0 +1,15 @@
+{
+  "name": "katalog-aplikasi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web katalog paket aplikasi dengan pemesanan lewat WhatsApp (MVP sesuai PRD v1.0).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate-catalog.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
