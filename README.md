@@ -1,5 +1,7 @@
 # Katalog Aplikasi
 
+**Situs live: https://katalog-apps.pages.dev**
+
 Web katalog paket aplikasi (streaming, education, editing, music, other) dengan pemesanan lewat WhatsApp. Pembeli memilih **produk → paket → durasi**. Website lalu menampilkan harga, ketentuan, ringkasan, dan menyiapkan draf chat ke admin di **+62 857-2459-0854**. Pesan baru terkirim setelah pembeli menekan Kirim di WhatsApp.
 
 Dibangun sesuai *PRD Web Katalog Aplikasi v1.0* dengan data dari *PRICELIST APPS* (pembaruan sumber 27 Juni 2026). Situs ini statis (HTML, CSS, dan JavaScript tanpa framework), jadi bisa di-host gratis tanpa server dan tanpa proses build.
@@ -64,9 +66,11 @@ Setelah mengubah data, jalankan `npm run validate`. Skrip ini menolak harga nol,
 Situs di-host di [Cloudflare Pages](https://pages.cloudflare.com) paket gratis: bandwidth tanpa batas, HTTPS otomatis, boleh untuk usaha, dan memakai subdomain gratis `*.pages.dev`. GitHub Pages sengaja tidak dipakai karena ketentuannya melarang situs bisnis atau e-commerce.
 
 ```bash
-npx wrangler@4 login   # sekali saja: login akun Cloudflare (gratis) di browser
-npm run deploy         # tes + validasi, lalu unggah folder site/
+npx wrangler@4 login --scopes account:read user:read pages:write   # sekali saja, izin minimal
+npm run deploy                                                      # tes + validasi, lalu unggah folder site/
 ```
+
+Proyek Pages `katalog-apps` sudah dibuat, jadi setiap ada perubahan cukup jalankan `npm run deploy` lagi. Jika wrangler menawarkan memindahkan proyek ke Workers, atau mengubah `package.json` dan membuat `wrangler.jsonc`, tolak tawaran itu atau pulihkan file dengan `git checkout -- package.json`. Situs ini memakai Pages tanpa dependensi.
 
 ## Perlu dikonfirmasi sebelum tayang
 
