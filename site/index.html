@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Katalog Aplikasi: paket dan harga aplikasi, pesan lewat WhatsApp</title>
+  <meta name="description" content="Lihat paket, durasi, dan harga aplikasi streaming, education, editing, music, dan lainnya. Pilih paket lalu pesan lewat WhatsApp dengan draf otomatis.">
+  <meta name="theme-color" content="#FFD240">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&amp;text=draf%20terisi%20otomatis&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preload" href="data/catalog.json" as="fetch" crossorigin>
+  <script type="module" src="assets/js/home.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#produk">Lewati ke daftar produk</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" class="icon-fill"><path d="M12 2C13 8.5 15.5 11 22 12C15.5 13 13 15.5 12 22C11 15.5 8.5 13 2 12C8.5 11 11 8.5 12 2Z"/></svg></span>
+        <span data-store="name">Katalog Aplikasi</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <ul class="nav-list" role="list">
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#cara-beli">Cara Beli</a></li>
+          <li><a href="#ketentuan">Ketentuan</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <noscript><p class="noscript">Katalog membutuhkan JavaScript agar daftar produk dan harga tampil. Anda tetap bisa bertanya langsung ke admin lewat WhatsApp: <a href="https://wa.me/6285724590854?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20produk%20dan%20paket%20yang%20tersedia.">+62 857-2459-0854</a>.</p></noscript>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h1 class="hero-title" id="hero-title">Pilih paket aplikasi, lalu pesan lewat WhatsApp.</h1>
+          <p class="lede">Harga setiap paket dan durasi untuk aplikasi streaming, belajar, editing, musik, dan lainnya. Setelah Anda memilih, pesan WhatsApp terisi otomatis sebagai draf. Admin mengonfirmasi ketersediaan, pembayaran, dan aktivasi lewat chat.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#produk">Lihat Produk</a>
+            <a class="btn btn-secondary" data-wa="help" href="https://wa.me/6285724590854?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20produk%20dan%20paket%20yang%20tersedia.">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 11.5a7.5 7.5 0 1 1 3.4 6.3L4 19l1.1-3.6A7.4 7.4 0 0 1 4 11.5ZM9 11.5h.01M12 11.5h.01M15 11.5h.01"/></svg>
+              <span>Tanya admin</span>
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero-demo" aria-labelledby="demo-caption">
+          <svg class="deco deco--sparkle" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C13 8.5 15.5 11 22 12C15.5 13 13 15.5 12 22C11 15.5 8.5 13 2 12C8.5 11 11 8.5 12 2Z"/></svg>
+          <svg class="deco deco--sparkle-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C13 8.5 15.5 11 22 12C15.5 13 13 15.5 12 22C11 15.5 8.5 13 2 12C8.5 11 11 8.5 12 2Z"/></svg>
+          <svg class="deco deco--bubbles" viewBox="0 0 40 60" aria-hidden="true"><circle cx="12" cy="46" r="9"/><circle cx="28" cy="22" r="6"/><circle cx="16" cy="7" r="4"/></svg>
+          <div class="chat">
+            <div class="chat-head">
+              <span class="chat-avatar" aria-hidden="true">A</span>
+              <span class="chat-name">Admin</span>
+              <span class="chat-number" data-store="phone">+62 857-2459-0854</span>
+            </div>
+            <div class="chat-body">
+              <p class="bubble" data-demo-message>Halo, saya tertarik membeli Netflix paket 1P1U untuk durasi 1 bulan. Harga yang tertera Rp40.000. Apakah tersedia?</p>
+            </div>
+            <div class="chat-compose" aria-hidden="true">
+              <span class="chat-input">Bisa diedit sebelum dikirim</span>
+              <span class="chat-send"><svg class="icon" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5"/></svg></span>
+            </div>
+          </div>
+          <figcaption class="hand-note" id="demo-caption">
+            <svg viewBox="0 0 60 44" aria-hidden="true"><path d="M6 40C18 39 32 31 41 15M33 15.5l8.5-1.5 1.2 8.6"/></svg>
+            <span>draf terisi otomatis</span>
+            <span class="visually-hidden">: contoh pesan yang disiapkan website setelah pembeli memilih produk, paket, dan durasi.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="produk" class="section catalog" aria-labelledby="produk-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" id="produk-title">Produk</h2>
+          <p class="section-sub">Harga dari pricelist pembaruan <span data-catalog-updated>…</span>. Harga dapat diperbarui, jadi admin mengonfirmasinya sebelum Anda membayar.</p>
+        </div>
+
+        <div class="catalog-tools">
+          <form class="search" role="search" data-search-form>
+            <label class="field-label" for="search-input">Cari aplikasi</label>
+            <div class="search-field">
+              <svg class="icon search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Zm5.3-2.2L21 21"/></svg>
+              <input class="search-input" id="search-input" type="search" name="q" placeholder="Contoh: Netflix, Canva, ChatGPT" autocomplete="off" spellcheck="false" enterkeyhint="search" maxlength="80">
+              <button class="search-clear" type="button" data-search-clear hidden aria-label="Hapus pencarian">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+              </button>
+            </div>
+          </form>
+          <fieldset class="filter">
+            <legend class="field-label">Kategori</legend>
+            <div class="chips" data-category-chips></div>
+          </fieldset>
+        </div>
+
+        <p class="result-count" role="status" data-result-count></p>
+        <div data-catalog-state></div>
+        <ul class="product-grid" role="list" aria-labelledby="produk-title" data-product-grid></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand" data-store="name">Katalog Aplikasi</p>
+        <p class="muted">Katalog paket aplikasi. Pemesanan, pembayaran, dan aktivasi dikonfirmasi admin lewat WhatsApp.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Kontak admin</h2>
+        <p class="footer-phone" data-store="phone">+62 857-2459-0854</p>
+        <div class="footer-actions">
+          <a class="btn btn-secondary btn-sm" data-wa="help" href="https://wa.me/6285724590854?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20produk%20dan%20paket%20yang%20tersedia.">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 11.5a7.5 7.5 0 1 1 3.4 6.3L4 19l1.1-3.6A7.4 7.4 0 0 1 4 11.5ZM9 11.5h.01M12 11.5h.01M15 11.5h.01"/></svg>
+            <span>Chat admin</span>
+          </a>
+          <button class="btn btn-ghost btn-sm" type="button" data-copy="phone">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 8.5A1.5 1.5 0 0 1 10.5 7h8A1.5 1.5 0 0 1 20 8.5v11a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 9 19.5ZM15 4H5.5A1.5 1.5 0 0 0 4 5.5V16"/></svg>
+            <span>Salin nomor</span>
+          </button>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h2 class="footer-title">Informasi</h2>
+        <ul role="list">
+          <li><a href="#ketentuan">Ketentuan layanan</a></li>
+          <li><a href="#cara-beli">Cara beli</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <p class="muted">Pembaruan katalog: <span data-catalog-updated>…</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" data-toast></div>
+</body>
+</html>
