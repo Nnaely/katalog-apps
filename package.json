@@ -7,7 +7,8 @@
   "scripts": {
     "test": "node --test",
     "serve": "node scripts/serve.mjs",
-    "validate": "node scripts/validate-catalog.mjs"
+    "validate": "node scripts/validate-catalog.mjs",
+    "deploy": "npm test && npm run validate && npx --yes wrangler@4 pages deploy site --project-name=katalog-apps --branch=main"
   },
   "engines": {
     "node": ">=20"
